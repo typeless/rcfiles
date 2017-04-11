@@ -4,3 +4,9 @@ set sw=8 noet ts=8 sts=8
 
 set nofoldenable
 let g:DisableAutoPHPFolding = 1 
+
+set modifiable
+
+let g:indent_guides_enable_on_vim_startup = 0
+let g:go_fmt_autosave = 1
+let g:go_fmt_command = "goimports"
